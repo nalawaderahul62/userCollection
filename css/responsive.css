@@ -1,0 +1,263 @@
+
+
+
+@media screen and (min-width: 0px) and (max-width: 1400px) {
+  h1
+  {
+    font-size: 5.55vw;
+    line-height: 6vw;
+  }
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 1279px) {
+  
+  .page-Wrap
+  {
+    padding: 100px 56px 20px 56px;
+  }
+}
+
+
+
+
+
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait),
+all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait),
+all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait),
+all and (device-width: 834px) and (device-height: 1194px) and (orientation:portrait),
+all and (device-width: 810px) and (device-height: 1080px) and (orientation:portrait)
+{
+    h1
+  {
+    font-size: 5vw;
+    line-height: 6vw;
+  }
+  
+}
+
+
+@media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape),
+all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape),
+all and (device-width: 1180px) and (device-height: 820px) and (orientation:landscape),
+all and (device-width: 1194px) and (device-height: 834px) and (orientation:landscape),
+all and (device-width: 1080px) and (device-height: 810px) and (orientation:landscape)
+{
+  h1
+  {
+    font-size: 5vw;
+    line-height: 6vw;
+  }
+ 
+
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 850px) {
+ 
+  @media (orientation: landscape) {
+
+
+    .loadscreen2 header{
+      -webkit-animation: resetheight 0.1s ease forwards;   /* Safari 4+ */
+      -moz-animation: resetheight 0.1s ease forwards;   /* Fx 5+ */
+      -o-animation: resetheight 0.1s ease forwards; /* Opera 12+ */
+      animation: resetheight 0.1s ease forwards; /* IE 10+, Fx 29+ */
+      animation-delay: 1s;
+    }
+
+    @-webkit-keyframes resetheight {
+      0%{ height: 100vh;}
+      100%{ height: 90px;}
+    }
+    @keyframes resetheight
+    {
+      0%{ height: 100vh;}
+      100%{ height: 90px;}
+    }
+
+    .logo {
+      max-width: 60%;
+      top: 30%;
+    }
+    .loadscreen2 .logo
+    {
+      -webkit-animation: setlogo 1s ease forwards;   /* Safari 4+ */
+      -moz-animation: setlogo 1s ease forwards;   /* Fx 5+ */
+      -o-animation: setlogo 1s ease forwards; /* Opera 12+ */
+      animation: setlogo 1s ease forwards; /* IE 10+, Fx 29+ */
+    }
+
+    @-webkit-keyframes setlogo {
+      0%{ top: 30%; max-width: 60%;}
+      100%{top: 20px;left:100px; max-width: 155px;}
+    }
+    @keyframes setlogo
+    {
+      0%{ top: 30%; max-width: 60%;}
+      100%{top: 20px;left:100px; max-width: 155px;}
+    }
+    
+}
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+
+
+
+  header
+  {
+    padding: 20px 30px;
+  }
+  .loadscreen2 header{
+    -webkit-animation: resetheight 0.1s ease forwards;   /* Safari 4+ */
+    -moz-animation: resetheight 0.1s ease forwards;   /* Fx 5+ */
+    -o-animation: resetheight 0.1s ease forwards; /* Opera 12+ */
+    animation: resetheight 0.1s ease forwards; /* IE 10+, Fx 29+ */
+    animation-delay: 0.8s;
+  }
+
+  @-webkit-keyframes resetheight {
+    0%{ height: 100vh;}
+    100%{ height: 90px;}
+  }
+  @keyframes resetheight
+  {
+    0%{ height: 100vh;}
+    100%{ height: 90px;}
+  }
+ 
+  .page-Wrap
+  {
+    padding: 120px 30px 30px 30px
+  }
+  
+  
+  .userSpace .col_1_1 .col, .userSpace .col_1_1 .col:nth-child(1)
+  {
+    width: 100%;
+    padding-right: 0px;
+    padding-top: 0px;
+  }
+  section
+  {
+    text-align: center;
+  }
+  .userSpace .col_1_1 .col:nth-child(2)
+  {
+    margin-bottom: 10px;
+  }
+  .userSpace .col_1_1 .col:nth-child(1)
+  {
+    padding-top: 30px;
+  }
+  .userSpace .col_1_1 .col:nth-child(1) p {
+    max-width: 100%;
+  }
+  
+  input[type='submit'], input[type=button], input[type=reset], button {
+    font-size: 24px;
+    line-height: 38px;
+  }
+  
+  
+  
+  body{
+    font-size: 20px;
+    line-height: 28px;
+  }
+  h1 {
+    font-size: 8vw;
+    line-height: 9vw;
+    margin-bottom: 10px;
+}
+  
+
+  h3 {
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+  
+.userSpace .col_1_1 .col {
+    
+    padding-bottom: 2vw;
+}
+ 
+  .userSpace .col_1_1 .col:nth-child(1) h6
+  {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+
+  
+
+
+  @media (orientation: portrait) {
+
+   
+
+    .logo {
+      max-width: 80%;
+      top: 45%;
+    }
+    .loadscreen2 .logo
+    {
+      -webkit-animation: setlogo 1s ease forwards;   /* Safari 4+ */
+      -moz-animation: setlogo 1s ease forwards;   /* Fx 5+ */
+      -o-animation: setlogo 1s ease forwards; /* Opera 12+ */
+      animation: setlogo 1s ease forwards; /* IE 10+, Fx 29+ */
+    }
+
+    @-webkit-keyframes setlogo {
+      0%{ top: 45%; max-width: 80%;}
+      100%{top: 20px;left:100px; max-width: 155px;}
+    }
+    @keyframes setlogo
+    {
+      0%{ top: 45%; max-width: 80%;}
+      100%{top: 20px;left:100px; max-width: 155px;}
+    }
+  }
+
+
+
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 640px) {
+ 
+}
+@media screen and (min-width: 0px) and (max-width: 560px) {
+  h1{
+    font-size: 10vw;
+    line-height: 11vw;
+  }
+
+ 
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+::-webkit-input-placeholder, :-ms-input-placeholder, ::placeholder{ 
+  font-size:14px!important;
+  line-height: 22px!important;
+ 
+}
+:-ms-input-placeholder{ 
+  font-size:14px!important;
+  line-height: 22px!important;
+  
+}
+::placeholder{ 
+  font-size:14px!important;
+  line-height: 22px!important;
+
+}
+select {
+   
+    font-size: 14px;
+    line-height: 22px;
+    }
+}
