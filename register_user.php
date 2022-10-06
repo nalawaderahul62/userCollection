@@ -52,8 +52,7 @@ if($run_user){
 
 
 
-echo "<script>window.open('index.php?view_users','_self')</script>";
-
+echo "<script>window.open('login.php','_self')</script>";
 }
 
 
