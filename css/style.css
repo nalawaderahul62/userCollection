@@ -168,10 +168,7 @@ justify-content: center;
   padding-top: 6vw;
   padding-bottom: 10vw;
 }
-.userSpace .col_1_1 .col:nth-child(1) h6
-{
-  font-family:'TT Norms Pro Regular';
-}
+
 .userSpace .col_1_1 .col:nth-child(1) p{
   max-width: 480px
 }
