@@ -56,11 +56,7 @@ $user_contact = $row_user['user_contact'];
 if($_SERVER['REQUEST_URI'] =="login.php"){echo "<script>window.open('index.php?dashboard','_self')</script>";}
 
 
-if(isset($_GET['index'])){
 
-include("dashboard.php");
-
-}
 
 if(isset($_GET['dashboard'])){
 
