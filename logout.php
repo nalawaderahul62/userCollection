@@ -9,7 +9,7 @@ session_start();
 session_destroy();
 
 if (isset($_COOKIE['user_email'])) {
-    setcookie("user_email", $_COOKIE["user_email"], time() + $sessionTime, "/");
+    setcookie("user_email", $_COOKIE["user_email"], time() - $sessionTime, "/");
 }
 
 
