@@ -60,12 +60,12 @@ echo "<script>window.open('login.php','_self')</script>";
 <?php include "header.php";?>
 	<section class="userSpace">
 	  <div class="col_1_1">
-		    <div class="col">
+		    <div class="col animate fadeInUp">
 		     <h1>Register Here<br>User Collection</h1>
 			 <p>Helps you to collect & store user information.</p>
 		   </div>
 	   		<div class="col animate fadeInUp">
-			<form class="form-login" action="" method="post" >
+			<form action="" method="post" >
 				<input type="text" name="user_name"  placeholder="Name" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode == 32)" required>
 
 				<input type="email" name="user_email" placeholder="Email" required>
