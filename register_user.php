@@ -49,9 +49,6 @@ $run_user = mysqli_query($con,$insert_user);
 
 
 if($run_user){
-
-
-
 echo "<script>window.open('login.php','_self')</script>";
 }
 
