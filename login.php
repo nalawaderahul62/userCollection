@@ -21,12 +21,12 @@ echo "<script>window.open('index.php?dashboard','_self')</script>";
 <?php include "header.php";?>
 <section class="userSpace">
     <div class="col_1_1">
-        <div class="col">
+        <div class="col animate fadeInUp">
          <h1>Login Here<br>User Collection</h1>
           <p>Login to manage user information.</p>
        </div>
        <div class="col animate fadeInUp">
-        <form class="form-login" action="" method="post" >
+        <form  action="" method="post" >
         <input type="email" name="user_email" placeholder="User Name"  required />
         <input type="password" name="user_pass" placeholder="Password" required />
         <button class="borderButton" type="submit" name="user_login" >LOG IN</button>
